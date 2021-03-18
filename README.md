@@ -10,7 +10,7 @@ List of documents:
 - Persona
 - Pitch
 
-## Conception/Architechture
+## Conception/Architecture
 
 This folder includes all the documents produced in the part of design and software architecture of our project 
 
@@ -18,7 +18,7 @@ This folder includes all the documents produced in the part of design and softwa
 This folder contains all the mockups made for our user interface
 
 ## Technical document
-  This document summarizes the eIDAS and ANSSI regulations, the technical documentation for the user and details on the technologies used for the development of our project.
+  This document summarizes the eIDAS and ANSSI regulations, the technical documentation for the user and details about the technologies used for the development and code implementation.
 
 ## Media
 This folder contains all the figures attached to the above documents.
