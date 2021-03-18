@@ -144,7 +144,7 @@ So all He have to do is to drag and drop the signature rectangles corresponding 
 # Used Technologies and libraries
 Mainly our application was generated using JHipster 6.10.3 ([Documentation](https://www.jhipster.tech/documentation-archive/v6.10.3)).
 
-We choose JHipster because it reduces the initial development hurdles, simplifies and standardizes the entire programming process, whether it is for the development of the application itself or for subsequent revisions and extensions of the code. Since the main development tools are directly available to us with JHipster, the use of frameworks saves us a considerable amount of time. To generate the code we used a very useful jhipster tool: the * [JDL studio](https://start.jhipster.tech/jdl-studio/), which allowed us thanks to the UML diagram to generate the overall architecture of the application.
+We choose JHipster because it reduces the initial development hurdles, simplifies and standardizes the entire programming process, whether it is for the development of the application itself or for subsequent revisions and extensions of the code. Since the main development tools are directly available to us with JHipster, the use of frameworks saves us a considerable amount of time. To generate the code we used a very useful jhipster tool : the [JDL studio](https://start.jhipster.tech/jdl-studio/), which allowed us thanks to the UML diagram to generate the overall architecture of the application.
 
 JHipster also allows us to generate in record time a web application that supports CRUD operations and has a clearly structured source code.
 
