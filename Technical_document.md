@@ -156,10 +156,15 @@ JHipster also allows us to generate in record time a web application that suppor
 * BOOTSTRAP
 
 1. Used Librairies and Modules
-      * ngx-extended-pdf-viewer
-      * pdfjslib-dist
-      * CDK Drag
+      * [ngx-extended-pdf-viewer](https://www.npmjs.com/package/ngx-extended-pdf-viewer) : For viewing pdf in scrollable document.
+      * [pdfjs-dist](https://www.npmjs.com/package/pdfjs-dist) : For viewing the pdf as a canvas.
+      * [Angular Materials/ CDK Drag](https://material.angular.io/cdk/drag-drop/overview) : for the positioning of a place holder to place the signature.
+     
 2. Tried Librairies ( Not used at least)
+      * [InteractJs](https://interactjs.io/): for review and drag and drop, resizing, and multi-touch gestures for modern browsers.
+      * [signature_pad](https://www.npmjs.com/package/signature_pad) : To create the hand signing.
+      * ng2-pdf-viewer : Does the same thing as ngx-extended-pdf-viewer
+      * PdfTron (not Free)
 
 
 ### Back-end : 
@@ -168,6 +173,11 @@ JHipster also allows us to generate in record time a web application that suppor
 * Spring Rest API
 
 1. Used Librairies and Modules
+   * Spire.pdf : to read and write in pdf and save them
+   * x509 : for certificate generation
+   * boucyCastle : for key peer generation
+2. Tried Librairies ( Not used at least)
+   * PDFBox : To read and write on the pdf
 
 
 ### Database : 
