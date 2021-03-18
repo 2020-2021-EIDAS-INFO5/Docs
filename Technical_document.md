@@ -4,9 +4,8 @@
 
 This document is the technical documentation of our eIDAS project, an electronic signature web application that we called ` "PolySign" `. It is divided into four parts:
 * Documentation on electronic signature regulations: [eIDAS](https://www.ssi.gouv.fr/entreprise/reglementation/confiance-numerique/le-reglement-eidas/) in Europe and [ANSSI](https://www.ssi.gouv.fr/) in France;
-* The technical documentation of the user
-* The technical documentation of the web application: The functioning and the current state of progress
-* Known bugs within implementation. 
+* The technical documentation of the user : User account & signature process creation
+* Used Technologies and libraries. 
 
 
 
@@ -44,12 +43,13 @@ the qualification of trusted service providers established on French territory w
 
 
 
-Qualification process
+### Qualification process
  ANSSI takes a decision on the qualification of a trust service provider on the basis of a conformity assessment report prepared by a conformity assessment body meeting the criteria defined in the note [CRITERES_OEC]. This assessment report must make it possible to verify compliance with all the requirements applicable to the trust service provider as specified in this note, as well as the requirements applicable to the trust service that is the subject of the qualification request. . The qualification process is described in the document [QUALIF_SERV].
 
-Duration of validity and maintenance of qualification
+### Duration of validity and maintenance of qualification
 The qualification of the trust service provider is issued for a maximum period of two years, in accordance with Article 20 of the [eIDAS] Regulation. To allow uninterrupted maintenance of the qualified status of a trusted service, a conformity assessment report drawn up by an organization meeting the criteria of [CRITERES_OEC] must be sent to ANSSI at least three months before the expiration of the qualification.
-Conformity assessment criteria
+
+### Conformity assessment criteria
 The assessment must make it possible to demonstrate compliance with the requirements of the [eIDAS] regulation applicable to all qualified trust service providers, specified in the following articles: 5 (1) Protection and processing of personal data; 13 (2) Limitation of liability; 15 Accessibility; 19 (1) Risk management; 19 (2) Notification of incidents; 24 (2) .a Information of the supervisory body relating to changes in services; o b Expertise, reliability, experience and qualification of staff and subcontractors; o c Maintaining sufficient financial resources and / or liability insurance; o Information of the conditions and limits of use of the services; o e Use of reliable products and systems, safety and reliability of processes; o f Use of reliable systems for data storage; o g Measures against falsification and theft of data; o j Lawful processing of personal data. Compliance with standard [EN_ 319_401] and the additions specified in chapter II.3 of this document allows a presumption of conformity to these requirements to be made.
 
 
@@ -64,7 +64,7 @@ We decided to use the RSA asymmetric encryption algorithm. So we decided to choo
 ![Alt text](./Media/KeyPair.png "Title")
 
 
-En ce qui conserne les algorithmes de hachages, l'ANSSI préconise d'utiliser l'algorithme de hashage SHA-256. 
+Regarding hashing algorithms, ANSSI recommends using the SHA-256 hashing algorithm. 
 
 
 # The technical documentation of the user
@@ -140,6 +140,45 @@ Therefore, the next step will be to define the signature locations on the docume
 ![Alt text](./Media/placeholder1.jpg "Title")
 So all He have to do is to drag and drop the signature rectangles corresponding to each signer, and send the sognature request.
 ![Alt text](./Media/placeholder2.png "Title")
+
+# Used Technologies and libraries
+Mainly our application was generated using JHipster 6.10.3 ([Documentation](https://www.jhipster.tech/documentation-archive/v6.10.3)).
+
+We choose JHipster because it reduces the initial development hurdles, simplifies and standardizes the entire programming process, whether it is for the development of the application itself or for subsequent revisions and extensions of the code. Since the main development tools are directly available to us with JHipster, the use of frameworks saves us a considerable amount of time.
+
+JHipster also allows us to generate in record time a web application that supports CRUD operations and has a clearly structured source code.
+
+### Front-end:
+* [Angular 9](https://angular.io/)
+* HTML 5
+* TypeScript
+* CSS 3
+* BOOTSTRAP
+
+1. Used Librairies and Modules
+      * ngx-extended-pdf-viewer
+      * pdfjslib-dist
+      * CDK Drag
+2. Tried Librairies ( Not used at least)
+
+
+### Back-end : 
+* [Spring boot/Java](https://spring.io/projects/spring-boot)
+* Spring Data/JPA
+* Spring Rest API
+
+1. Used Librairies and Modules
+
+
+### Database : 
+* H2 Data Base
+
+### Authentification service
+* Keycloak
+
+### Versioning tools:
+* Git, GitHub, GitHub Actions
+
 
 <!--
 # References
