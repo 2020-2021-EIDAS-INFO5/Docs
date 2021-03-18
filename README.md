@@ -24,5 +24,5 @@ This folder contains all the mockups made for our user interface
 This folder contains all the figures attached to the above documents.
 
 
-## Scorecard
+## Monitoring sheet
 This document summarizes the different stages of the project and the progress of the team as the different sprints progress. 
