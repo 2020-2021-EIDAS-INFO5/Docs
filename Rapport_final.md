@@ -283,8 +283,8 @@ dépendances
 Nous avons réalisé des métriques sur le nombre de commits ainsi que sur le nombre de lignes de code. Le nombre de commits est assez représentatif du travail mais pas complètement puisque la taille des commits varie par rapport à d'autres. De même, pour le nombre de lignes de code, on peut voir qu’Houda et Dima ont un faible nombre de lignes de code. Cela, n’est pas complètement représentatif du travail de  tous les membres car c’est surtout dû au fait qu’elles ont passé beaucoup de temps à tester les différentes librairies pour visualiser et d’ajouter un canvas dans un PDF côté front end ou encore de lire/écrire puis de signer dans un PDF côté back end. En
 résumé
 
-![Alt text](./Media/StartCodeLines.png "lignes de code à l'intialisation de l'application")
-![Alt text](./Media/EndingCodeLines.png "lignes de code en fin de projet")
+![Alt text](./Media/StartCodeLines.png "Title")  lignes de code à l'intialisation de l'application
+![Alt text](./Media/EndingCodeLines.png "Title") lignes de code en fin de projet
 
 
 ```
