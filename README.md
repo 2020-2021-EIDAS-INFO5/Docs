@@ -2,13 +2,9 @@
 
 * All the documents in this directory are explanatory elements for our application *
 
+## Final report
+  This document  is th final reperot of our project (in French).
 
-## Analysis
-This folder contains documents relating to the analysis of user needs, most of which were carried out during the MPI (Management of Innovative Project) courses.
-
-List of documents:
-- Persona
-- Pitch
 
 ## Conception/Architecture
 
